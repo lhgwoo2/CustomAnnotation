@@ -1,0 +1,1 @@
+# Custom Annotation어노테이션을 활용하여 API 인터페이스를 좀더 간편하게 만들도록 해보자.##  프로그램 개요스트링 필드에 어노테이션을 적용하여 값을 주입하여 reflection을 이용하여 실체화한다.## 프로젝트 파일* Main - 실행 클래스* MyContextContainer - 리플렉션으로 넘어온 instance에 개별 어노테이션 필드값을 넣는 클래스* MyObject -  개별 필드 값에 어노테이션 값 주입* StringInjector - 어노테이션 설정 인터페이스## 출처해당 프로젝트의 출처는 [JDM's Blog](http://jdm.kr/blog/216)를 참고한다.
